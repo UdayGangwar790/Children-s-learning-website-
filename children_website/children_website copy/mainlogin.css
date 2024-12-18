@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+header{
+    background-color: aqua;
+}
+h2{
+    margin-left: 20px;
+}
+nav{
+    background-color: #ff6b6b;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+button {
+    padding: 10px 10px;
+    font-size: 1.1rem;
+    background-color:#45b7ae;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background-color 0.9s;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Utility Classes */
+.hidden {
+    display: none !important;
+}
